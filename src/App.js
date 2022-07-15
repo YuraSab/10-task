@@ -40,6 +40,7 @@ function App() {
         console.log(counter)
         if (counter > 0 && counter < 100) {
             fetchTodos();
+
         }
     }, [counter])
 
